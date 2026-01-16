@@ -7,7 +7,8 @@
 
 ## What You're Getting
 
-Peether is a **modular settlement protocol** for ride-hailing networks. You deploy it, customize it, operate it independently.
+Peether is a **modular settlement protocol** for ride-hailing networks. You deploy it, customize it,
+operate it independently.
 
 ## Architecture
 

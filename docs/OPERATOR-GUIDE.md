@@ -1,6 +1,6 @@
 ---
 
-### File: `docs/OPERATOR-GUIDE.md`
+### File: `OPERATOR-GUIDE.md`
 
 ```markdown
 # Peether Operator Guide

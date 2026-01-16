@@ -37,20 +37,20 @@ cd peether-protocol
 
 
 2. Install Dependencies
-bash
+```bash
 
 npm install
 
 
 3. Configure Environment
-bash
+```bash
 
 cp .env.example .env
 
 
 Edit .env with your details:
 
-text
+```text
 
 OPERATOR_ID=pink-taxi-your-country
 CURRENCY_CODE=PKR
@@ -60,7 +60,7 @@ SUPABASE_ANON_KEY=your-anon-key
 
 
 4. Set Up Database
-bash
+```bash
 
 npm run migrate
 
@@ -71,7 +71,7 @@ This creates:
 
 
 5. Start Development Server
-bash
+```bash
 
 npm run dev
 API runs on http://localhost:3000
@@ -83,7 +83,7 @@ Import postman/Peether-Settlement-API.postman_collection.json and test all endpo
 
 Integration with Your App
 Quote Flow
-text
+```text
 
 1. User enters ride amount (e.g., 1000 PKR)
 2. Your app calls: POST /api/peether/quote
@@ -92,7 +92,7 @@ text
 
 
 Payment Flow
-text
+```text
 
 1. Rider confirms ride
 2. Your app calls: POST /api/peether/pay
@@ -102,7 +102,7 @@ text
 
 Payout Flow
 
-text
+```text
 1. Driver requests withdrawal
 2. Your app calls: POST /api/peether/payout
 3. Peether processes: Converts PTDT → PKR (via JazzCash)
@@ -189,7 +189,7 @@ npm-debug.log*
 Setup Instructions
 
 Step 1: Clone & Install
-bash
+```bash
 
 git clone https://github.com/pinkpeether/peether-protocol.git
 cd peether-protocol
@@ -197,26 +197,26 @@ npm install
 
 
 Step 2: Configure
-bash
+```bash
 
 cp .env.example .env
 # Edit .env with your Supabase credentials
 
 
 Step 3: Migrate Database
-bash
+```bash
 
 npm run migrate
 
 
 Step 4: Run Dev Server
-bash
+```bash
 
 npm run dev
 
 
 Step 5: Test
-text
+```text
 
 Import Postman collection
 Test all 3 endpoints
@@ -224,7 +224,7 @@ Verify responses
 
 
 Step 6: Deploy
-bash
+```bash
 
 npm run build
 git push to your repo
